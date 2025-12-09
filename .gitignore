@@ -1,0 +1,43 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Data files (never commit raw/private data)
+data/raw/
+data/processed/
+
+# Model weights / outputs
+models/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+*.npz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit specific
+.streamlit/
+
+# VS Code settings
+.vscode/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
